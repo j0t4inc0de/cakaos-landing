@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  cakaos-landing:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cakaos-landing
+    restart: always
+    ports:
+      - "8080:80" # Expone localmente en el puerto 8080 por seguridad/pruebas
+    networks:
+      - proxy_network
+
+networks:
+  proxy_network:
+    external: true
