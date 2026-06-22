@@ -35,29 +35,28 @@ Implementaremos el proyecto sobre el stack tecnológico de producción de We Are
 
 ## 📅 3. Cronograma de Trabajo
 
-### **Fase 1: Estructuración y Diseño Visual (Hoy)**
-* Configurar la base del proyecto y el sistema de estilos.
-* Crear los componentes del menú interactivo.
-* Desarrollar la lógica del configurador de waffles.
+### **Fase 1: Estructuración y Diseño Visual (Hoy) - [Completada]**
+* [x] Configurar la base del proyecto y el sistema de estilos.
+* [x] Crear los componentes del menú interactivo.
+* [x] Desarrollar la lógica del configurador de waffles.
+* [x] Diseñar e implementar transiciones y micro-animaciones premium en Vue.
 
-### **Fase 2: Conexión y Pruebas locales**
-* Conectar el botón de pedidos para abrir WhatsApp Web / App con el texto dinámico.
-* Probar la responsividad móvil (pantallas de celulares).
+### **Fase 2: Conexión y Pruebas locales - [Completada]**
+* [x] Conectar el botón de pedidos para abrir WhatsApp Web / App con el texto dinámico.
+* [x] Probar la responsividad móvil (pantallas de celulares).
 
-### **Fase 3: Despliegue en Servidor (`jota-server`)**
-* Crear el archivo de configuración Docker (`Dockerfile` y `docker-compose.yml`).
-* Desplegar en tu servidor local de pruebas expuesto con Cloudflare Tunnel.
+### **Fase 3: Despliegue en Servidor (`jota-server`) - [Completada]**
+* [x] Crear el archivo de configuración Docker (`Dockerfile` y `docker-compose.yml`).
+* [x] Desplegar en servidor de producción expuesto en internet.
+* [x] URL activa y funcionando: **[cakaos.wearesamod.com](https://cakaos.wearesamod.com)**
 
 ### **Fase 4: El Pitch de Cierre (Envío del Enlace)**
-* Enviar la propuesta por WhatsApp junto con el enlace en producción:
-  > *"¡Hola equipo de Cakao's! Pasé el otro día por el local y me encantó la cafetería. Les armé esta propuesta rápida de cómo se vería su menú interactivo para que los clientes armen sus waffles y pidan directo por WhatsApp. Pruébenlo en su celular: [Enlace]"*
+* [ ] Enviar la propuesta por WhatsApp junto con el enlace en producción:
+  > *"¡Hola equipo de Cakao's! Pasé el otro día por el local y me encantó la cafetería. Les armé esta propuesta rápida de cómo se vería su menú interactivo para que los clientes armen sus waffles y pidan directo por WhatsApp. Pruébenlo en su celular: https://cakaos.wearesamod.com"*
 
 ---
 
-## ❓ Decisiones Técnicas Pendientes
+## ❓ Decisiones Técnicas Tomadas
 
-Para el desarrollo del prototipo, necesitamos definir:
-1. **¿Qué tecnologías de estilo prefieres usar?**
-   - **Opción A (Recomendada):** Instalar **Tailwind CSS v3** para mantener la consistencia con tu proyecto `oralis-landing`.
-   - **Opción B:** Usar **Vanilla CSS** nativo (como lo requiere por defecto el sistema, a menos que confirmes lo contrario).
-2. **Precios y Datos Base:** Usaremos un menú genérico simplificado de waffles (ej. Base Waffle: $3.500 CLP, Toppings adicionales: $500 c/u) a menos que prefieras que busquemos precios reales de su carta de Instagram.
+1. **Estilo:** Se configuró e instaló **Tailwind CSS v3** con una paleta Cozy & Dark personalizada.
+2. **Precios y Datos:** Se mantuvo la estructura de base para los waffles y cafetería según los datos iniciales, complementándolos con transiciones suaves.
