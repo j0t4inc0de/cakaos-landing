@@ -103,7 +103,14 @@ const getWhatsAppLink = (planName) => {
               <span class="text-lg sm:text-xl font-bold text-brand-cream">{{ formatPrice(70000) }} <span class="text-[9px] sm:text-[10px] text-brand-muted font-normal">(en 2 cuotas)</span></span>
             </div>
             <div class="flex justify-between items-baseline relative group">
-              <span class="text-[10px] sm:text-xs text-brand-muted uppercase border-b border-dotted border-brand-muted/60 cursor-help">Mantención mensual:</span>
+              <span class="text-[10px] sm:text-xs text-brand-muted uppercase border-b border-dotted border-brand-muted/60 cursor-help flex items-center gap-1">
+                Mantención mensual
+                <!-- Info Icon with Pulse -->
+                <svg class="w-3.5 h-3.5 text-brand-caramel/90 animate-pulse shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 111.083.985l-.5 1.516.5.025m1.083-3.486h-.001m-6.442 3.51a9 9 0 1118 0 9 9 0 01-18 0z" />
+                </svg>
+                :
+              </span>
               <span class="text-lg sm:text-xl font-bold text-brand-caramel border-b border-dotted border-brand-caramel/60 cursor-help">{{ formatPrice(20000) }}<span class="text-xs font-normal text-brand-muted">/mes</span></span>
               
               <!-- Tooltip Plan 1 -->
@@ -174,7 +181,14 @@ const getWhatsAppLink = (planName) => {
               <span class="text-lg sm:text-xl font-bold text-brand-cream">{{ formatPrice(120000) }} <span class="text-[9px] sm:text-[10px] text-brand-muted font-normal">(en 2 cuotas)</span></span>
             </div>
             <div class="flex justify-between items-baseline relative group">
-              <span class="text-[10px] sm:text-xs text-brand-muted uppercase border-b border-dotted border-brand-muted/60 cursor-help">Mantención mensual:</span>
+              <span class="text-[10px] sm:text-xs text-brand-muted uppercase border-b border-dotted border-brand-muted/60 cursor-help flex items-center gap-1">
+                Mantención mensual
+                <!-- Info Icon with Pulse -->
+                <svg class="w-3.5 h-3.5 text-brand-caramel/90 animate-pulse shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 111.083.985l-.5 1.516.5.025m1.083-3.486h-.001m-6.442 3.51a9 9 0 1118 0 9 9 0 01-18 0z" />
+                </svg>
+                :
+              </span>
               <span class="text-lg sm:text-xl font-bold text-brand-caramel border-b border-dotted border-brand-caramel/60 cursor-help">{{ formatPrice(35000) }}<span class="text-xs font-normal text-brand-muted">/mes</span></span>
               
               <!-- Tooltip Plan 2 -->
