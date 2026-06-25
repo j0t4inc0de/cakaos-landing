@@ -207,8 +207,11 @@ const getWhatsAppLink = (planName) => {
     </section>
 
     <!-- Comparativa con cartas frías -->
-    <section class="glass-panel rounded-2xl p-5 sm:p-8 mb-8 sm:mb-12 border border-brand-coffee/20">
-      <h2 class="text-lg sm:text-2xl font-outfit font-bold text-brand-cream mb-6 text-center">¿Por qué un Menú Exclusivo y no un PDF o Carta Genérica?</h2>
+    <section class="glass-panel rounded-2xl p-5 sm:p-8 mb-8 sm:mb-12 border border-brand-coffee/20 text-center">
+      <h2 class="text-lg sm:text-2xl font-outfit font-bold text-brand-cream mb-2">¿Por qué un Menú Exclusivo y no la Carta Genérica de Fudo o un PDF?</h2>
+      <p class="text-xs sm:text-sm text-brand-muted mb-8 max-w-2xl mx-auto leading-relaxed">
+        Hoy en día, la mayoría de los restaurantes y cafeterías utilizan la misma carta virtual genérica proporcionada por plataformas como Fudo, haciendo que todos los locales se vean iguales. Nosotros diseñamos una experiencia exclusiva a medida para Estación Cakao's, garantizando una identidad visual única que nadie más tendrá y que conecta realmente con tus clientes.
+      </p>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
         <div class="space-y-3">
           <!-- Waffle/Grid Layout SVG -->
