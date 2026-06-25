@@ -18,7 +18,7 @@ const goToDemo = () => {
 
 const getWhatsAppLink = (planName) => {
   const message = `¡Hola Jota! Revisamos la propuesta digital de Estación Cakao's y nos interesa conversar más sobre el ${planName}. ¿Cuándo nos podríamos reunir?`
-  return `https://wa.me/56976619819?text=${encodeURIComponent(message)}`
+  return `https://wa.me/56948991554?text=${encodeURIComponent(message)}`
 }
 </script>
 
@@ -104,9 +104,17 @@ const getWhatsAppLink = (planName) => {
               <span class="text-[10px] sm:text-xs text-brand-muted uppercase">Implementación:</span>
               <span class="text-lg sm:text-xl font-bold text-brand-cream">{{ formatPrice(70000) }} <span class="text-[9px] sm:text-[10px] text-brand-muted font-normal">(en 2 cuotas)</span></span>
             </div>
-            <div class="flex justify-between items-baseline">
-              <span class="text-[10px] sm:text-xs text-brand-muted uppercase">Mantención mensual:</span>
-              <span class="text-lg sm:text-xl font-bold text-brand-caramel">{{ formatPrice(20000) }}<span class="text-xs font-normal text-brand-muted">/mes</span></span>
+            <div class="flex justify-between items-baseline relative group">
+              <span class="text-[10px] sm:text-xs text-brand-muted uppercase border-b border-dotted border-brand-muted/60 cursor-help">Mantención mensual:</span>
+              <span class="text-lg sm:text-xl font-bold text-brand-caramel border-b border-dotted border-brand-caramel/60 cursor-help">{{ formatPrice(20000) }}<span class="text-xs font-normal text-brand-muted">/mes</span></span>
+              
+              <!-- Tooltip Plan 1 -->
+              <div class="pointer-events-none absolute bottom-full left-0 right-0 z-30 mb-2 p-3 rounded-xl bg-brand-darker border border-brand-coffee text-[10px] text-brand-cream opacity-0 group-hover:opacity-100 transition-all duration-300 shadow-2xl leading-normal text-left translate-y-2 group-hover:translate-y-0 select-none">
+                <span class="block font-bold text-brand-caramel mb-0.5 font-outfit">La mantención mensual incluye:</span>
+                • Dominio **cakaos.wearesamod.com** proporcionado por nosotros.<br>
+                • Mantención técnica y actualizaciones del sistema.<br>
+                • Hosting rápido en nuestros servidores.
+              </div>
             </div>
             <div class="text-[9px] text-brand-muted text-right mt-1.5">*Se comienza a pagar desde el 2° mes de servicio</div>
           </div>
@@ -121,7 +129,7 @@ const getWhatsAppLink = (planName) => {
       </div>
 
       <!-- Plan 2 -->
-      <div class="glass-panel rounded-2xl p-6 sm:p-8 border-2 border-brand-caramel/60 flex flex-col justify-between relative overflow-hidden shadow-xl hover:border-brand-caramel transition-all duration-300">
+      <div class="glass-panel rounded-2xl p-6 sm:p-8 border-2 border-brand-caramel/60 flex flex-col justify-between relative shadow-xl hover:border-brand-caramel transition-all duration-300">
         <div class="absolute top-4 right-4 bg-brand-caramel text-brand-cream text-[9px] uppercase font-bold px-2.5 py-1 rounded-full tracking-wider">
           Recomendado
         </div>
@@ -167,9 +175,17 @@ const getWhatsAppLink = (planName) => {
               <span class="text-[10px] sm:text-xs text-brand-muted uppercase">Implementación:</span>
               <span class="text-lg sm:text-xl font-bold text-brand-cream">{{ formatPrice(120000) }} <span class="text-[9px] sm:text-[10px] text-brand-muted font-normal">(en 2 cuotas)</span></span>
             </div>
-            <div class="flex justify-between items-baseline">
-              <span class="text-[10px] sm:text-xs text-brand-muted uppercase">Mantención mensual:</span>
-              <span class="text-lg sm:text-xl font-bold text-brand-caramel">{{ formatPrice(35000) }}<span class="text-xs font-normal text-brand-muted">/mes</span></span>
+            <div class="flex justify-between items-baseline relative group">
+              <span class="text-[10px] sm:text-xs text-brand-muted uppercase border-b border-dotted border-brand-muted/60 cursor-help">Mantención mensual:</span>
+              <span class="text-lg sm:text-xl font-bold text-brand-caramel border-b border-dotted border-brand-caramel/60 cursor-help">{{ formatPrice(35000) }}<span class="text-xs font-normal text-brand-muted">/mes</span></span>
+              
+              <!-- Tooltip Plan 2 -->
+              <div class="pointer-events-none absolute bottom-full left-0 right-0 z-30 mb-2 p-3 rounded-xl bg-brand-darker border border-brand-caramel/60 text-[10px] text-brand-cream opacity-0 group-hover:opacity-100 transition-all duration-300 shadow-2xl leading-normal text-left translate-y-2 group-hover:translate-y-0 select-none">
+                <span class="block font-bold text-brand-caramel mb-0.5 font-outfit">La mantención mensual incluye:</span>
+                • Todo lo del Plan 1 (dominio, mantención y hosting web).<br>
+                • Número de teléfono de empresa exclusivo para el bot.<br>
+                • Mantención y hosting del bot de IA en nuestro servidor.
+              </div>
             </div>
             <div class="text-[9px] text-brand-muted text-right mt-1.5">*Se comienza a pagar desde el 2° mes de servicio</div>
           </div>
