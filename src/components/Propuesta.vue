@@ -13,7 +13,7 @@ const formatPrice = (value) => {
 }
 
 const getWhatsAppLink = (planName) => {
-  const message = `¡Hola Jota! Revisamos la propuesta digital de Estación Cakao's y nos interesa conversar más sobre el ${planName}. ¿Cuándo nos podríamos reunir?`
+  const message = `¡Hola! Revisamos la propuesta digital de Estación Cakao's y nos interesa conversar más sobre el ${planName}. ¿Cuándo nos podríamos reunir?`
   return `https://wa.me/56948991554?text=${encodeURIComponent(message)}`
 }
 </script>
@@ -109,6 +109,7 @@ const getWhatsAppLink = (planName) => {
                 <svg class="w-3.5 h-3.5 text-brand-caramel/90 animate-pulse shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 111.083.985l-.5 1.516.5.025m1.083-3.486h-.001m-6.442 3.51a9 9 0 1118 0 9 9 0 01-18 0z" />
                 </svg>
+                <span class="text-[8px] text-brand-caramel/80 lowercase animate-pulse">(ver detalle)</span>
                 :
               </span>
               <span class="text-lg sm:text-xl font-bold text-brand-caramel border-b border-dotted border-brand-caramel/60 cursor-help">{{ formatPrice(20000) }}<span class="text-xs font-normal text-brand-muted">/mes</span></span>
@@ -187,6 +188,7 @@ const getWhatsAppLink = (planName) => {
                 <svg class="w-3.5 h-3.5 text-brand-caramel/90 animate-pulse shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 111.083.985l-.5 1.516.5.025m1.083-3.486h-.001m-6.442 3.51a9 9 0 1118 0 9 9 0 01-18 0z" />
                 </svg>
+                <span class="text-[8px] text-brand-caramel/80 lowercase animate-pulse">(ver detalle)</span>
                 :
               </span>
               <span class="text-lg sm:text-xl font-bold text-brand-caramel border-b border-dotted border-brand-caramel/60 cursor-help">{{ formatPrice(35000) }}<span class="text-xs font-normal text-brand-muted">/mes</span></span>
