@@ -59,43 +59,6 @@ const getWhatsAppLink = (planName) => {
       </div>
     </header>
 
-    <!-- Comparativa con cartas frías -->
-    <section class="glass-panel rounded-2xl p-5 sm:p-8 mb-8 sm:mb-12 border border-brand-coffee/20">
-      <h2 class="text-lg sm:text-2xl font-outfit font-bold text-brand-cream mb-6 text-center">¿Por qué un Menú Exclusivo y no un PDF o Carta Genérica?</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
-        <div class="space-y-3">
-          <!-- Waffle/Grid Layout SVG -->
-          <svg class="w-8 h-8 text-brand-caramel" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
-          </svg>
-          <h3 class="text-base sm:text-lg font-outfit font-bold text-brand-cream">Armador Interactivo</h3>
-          <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
-            Los clientes arman su waffle en pantalla en tiempo real. Al ver los ingredientes de forma lúdica, se incentiva la adición de toppings, subiendo el valor del ticket promedio.
-          </p>
-        </div>
-        <div class="space-y-3">
-          <!-- Lightning/Bolt SVG -->
-          <svg class="w-8 h-8 text-brand-caramel" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
-          </svg>
-          <h3 class="text-base sm:text-lg font-outfit font-bold text-brand-cream">Carga en 1 Segundo</h3>
-          <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
-            Sin descargas molestas de PDFs pesados ni registros complejos. Funciona de inmediato en cualquier teléfono con solo escanear el código QR en las mesas.
-          </p>
-        </div>
-        <div class="space-y-3">
-          <!-- Heart/Branding SVG -->
-          <svg class="w-8 h-8 text-brand-caramel" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-          </svg>
-          <h3 class="text-base sm:text-lg font-outfit font-bold text-brand-cream">Branding de tu Marca</h3>
-          <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
-            Muestra la vibra acogedora del local, reviews reales y políticas inclusivas (Pet Friendly / LGBTQ+ Safe), algo que los menús POS genéricos no hacen.
-          </p>
-        </div>
-      </div>
-    </section>
-
     <!-- Planes y Precios -->
     <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 sm:mb-12">
       <!-- Plan 1 -->
@@ -217,6 +180,43 @@ const getWhatsAppLink = (planName) => {
           >
             Me interesa el Plan 2
           </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparativa con cartas frías -->
+    <section class="glass-panel rounded-2xl p-5 sm:p-8 mb-8 sm:mb-12 border border-brand-coffee/20">
+      <h2 class="text-lg sm:text-2xl font-outfit font-bold text-brand-cream mb-6 text-center">¿Por qué un Menú Exclusivo y no un PDF o Carta Genérica?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+        <div class="space-y-3">
+          <!-- Waffle/Grid Layout SVG -->
+          <svg class="w-8 h-8 text-brand-caramel" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
+          </svg>
+          <h3 class="text-base sm:text-lg font-outfit font-bold text-brand-cream">Armador Interactivo</h3>
+          <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
+            Los clientes arman su waffle en pantalla en tiempo real. Al ver los ingredientes de forma lúdica, se incentiva la adición de toppings, subiendo el valor del ticket promedio.
+          </p>
+        </div>
+        <div class="space-y-3">
+          <!-- Lightning/Bolt SVG -->
+          <svg class="w-8 h-8 text-brand-caramel" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+          </svg>
+          <h3 class="text-base sm:text-lg font-outfit font-bold text-brand-cream">Carga en 1 Segundo</h3>
+          <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
+            Sin descargas molestas de PDFs pesados ni registros complejos. Funciona de inmediato en cualquier teléfono con solo escanear el código QR en las mesas.
+          </p>
+        </div>
+        <div class="space-y-3">
+          <!-- Heart/Branding SVG -->
+          <svg class="w-8 h-8 text-brand-caramel" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+          </svg>
+          <h3 class="text-base sm:text-lg font-outfit font-bold text-brand-cream">Branding de tu Marca</h3>
+          <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
+            Muestra la vibra acogedora del local, reviews reales y políticas inclusivas (Pet Friendly / LGBTQ+ Safe), algo que los menús POS genéricos no hacen.
+          </p>
         </div>
       </div>
     </section>
