@@ -12,10 +12,6 @@ const formatPrice = (value) => {
   return new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP', maximumFractionDigits: 0 }).format(value)
 }
 
-const goToDemo = () => {
-  window.location.hash = ''
-}
-
 const getWhatsAppLink = (planName) => {
   const message = `¡Hola Jota! Revisamos la propuesta digital de Estación Cakao's y nos interesa conversar más sobre el ${planName}. ¿Cuándo nos podríamos reunir?`
   return `https://wa.me/56948991554?text=${encodeURIComponent(message)}`
@@ -43,18 +39,20 @@ const getWhatsAppLink = (planName) => {
       </p>
       
       <div class="mt-6 flex flex-col items-center gap-2">
-        <button 
-          @click="goToDemo"
+        <a 
+          href="/" 
+          target="_blank"
           class="text-xs sm:text-sm bg-brand-darker hover:bg-brand-coffee/20 border border-brand-coffee/30 text-brand-cream font-semibold px-5 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto shadow-md"
         >
-          <!-- Left Arrow SVG -->
+          <!-- External Link SVG -->
           <svg class="w-4 h-4 text-brand-cream" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 13.5 20.25 3.75m-11.25 3h-2.25A2.25 2.25 0 0 0 4.5 9v9a2.25 2.25 0 0 0 2.25 2.25h9a2.25 2.25 0 0 0 2.25-2.25v-2.25" />
           </svg>
           Ver Prototipo de la Carta
-        </button>
+        </a>
         <span class="text-[10px] text-brand-muted">
-          *Nota: El prototipo de la carta es una muestra visual preliminar y no constituye el producto final.
+          *Nota: El prototipo de la carta se abrirá en una nueva pestaña como muestra visual preliminar.
         </span>
       </div>
     </header>
