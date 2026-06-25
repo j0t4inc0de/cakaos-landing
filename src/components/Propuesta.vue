@@ -105,10 +105,6 @@ const getWhatsAppLink = (planName) => {
             <div class="flex justify-between items-baseline relative group">
               <span class="text-[10px] sm:text-xs text-brand-muted uppercase border-b border-dotted border-brand-muted/60 cursor-help flex items-center gap-1">
                 Mantención mensual
-                <!-- Info Icon with Pulse -->
-                <svg class="w-3.5 h-3.5 text-brand-caramel/90 animate-pulse shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 111.083.985l-.5 1.516.5.025m1.083-3.486h-.001m-6.442 3.51a9 9 0 1118 0 9 9 0 01-18 0z" />
-                </svg>
                 <span class="text-[8px] text-brand-caramel/80 lowercase animate-pulse">(ver detalle)</span>
                 :
               </span>
@@ -184,10 +180,6 @@ const getWhatsAppLink = (planName) => {
             <div class="flex justify-between items-baseline relative group">
               <span class="text-[10px] sm:text-xs text-brand-muted uppercase border-b border-dotted border-brand-muted/60 cursor-help flex items-center gap-1">
                 Mantención mensual
-                <!-- Info Icon with Pulse -->
-                <svg class="w-3.5 h-3.5 text-brand-caramel/90 animate-pulse shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 111.083.985l-.5 1.516.5.025m1.083-3.486h-.001m-6.442 3.51a9 9 0 1118 0 9 9 0 01-18 0z" />
-                </svg>
                 <span class="text-[8px] text-brand-caramel/80 lowercase animate-pulse">(ver detalle)</span>
                 :
               </span>
